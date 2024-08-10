@@ -14,6 +14,7 @@ export const getTag = async (req, res) => {
 
   try {
     const tag = await Tag.findOne({ tag: name });
+    console.log(tag)
     res.status(200).json(tag);
   } catch (error) {
     res.status(404).json({ message: error.message });

@@ -3,6 +3,6 @@ import { getTag, getTags } from '../controllers/tagControllers.js';
 const tagRouter = express.Router();
 
 tagRouter.get('/', getTags);
-tagRouter.get('/:id', getTag);
+tagRouter.get('/:name', getTag);
 
 export default tagRouter;
