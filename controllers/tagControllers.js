@@ -13,7 +13,7 @@ export const getTag = async (req, res) => {
   const { name } = req.params;
 
   try {
-    const tag = await Tag.findOne({ name });
+    const tag = await Tag.findOne({ tag: name });
     res.status(200).json(tag);
   } catch (error) {
     res.status(404).json({ message: error.message });
