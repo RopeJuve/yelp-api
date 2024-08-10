@@ -6,7 +6,11 @@ import connectToDatabase from "./db.js";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-app.use(cors())
+app.use(cors({
+  origin: "*",
+  methods: "GET,POST,PUT,DELETE"
+}));
+
 app.use(express.json());
 connectToDatabase();
 app.get("/", (req, res) => {
