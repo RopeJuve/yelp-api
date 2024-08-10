@@ -1,6 +1,5 @@
 [
   {
-    "id": "66b7283de967685122dee45b",
     "name": "The Gourmet Bistro",
     "image_URL": "https://picsum.photos/seed/bistro/200/300",
     "location": {
@@ -27,7 +26,6 @@
     ]
   },
   {
-    "id": "66b7283de967685122dee45c",
     "name": "Pizza Haven",
     "image_URL": "https://picsum.photos/seed/pizza/200/300",
     "location": {
@@ -40,7 +38,6 @@
     "rating": 4.5,
     "reviews": [
       {
-        "id": "r1",
         "user_id": "Charlie",
         "text": "Best pizza in town!",
         "rating": 4.6
@@ -48,7 +45,6 @@
     ]
   },
   {
-    "id": "66b7283de967685122dee45d",
     "name": "Sushi World",
     "image_URL": "https://picsum.photos/seed/sushi/200/300",
     "location": {
@@ -61,7 +57,6 @@
     "rating": 4.7,
     "reviews": [
       {
-        "id": "r1",
         "user_id": "Dana",
         "text": "Fresh and delicious sushi.",
         "rating": 4.8
