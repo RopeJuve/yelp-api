@@ -43,14 +43,13 @@ const RestaurantSchema = new Schema({
       },
     },
   ],
-  tags: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: "Tags",
+  tags:{
+      name: {
+        type: String,
+        required: true,
+      },
     },
-  ],
-},
-);
+});
 
 const Restaurant = model("Restaurant", RestaurantSchema);
 
