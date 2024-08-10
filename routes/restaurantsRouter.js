@@ -11,6 +11,6 @@ import {
 const restaurantsRouter = express.Router();
 
 restaurantsRouter.get("/", getRestaurants);
-restaurantsRouter.get("/:id", checkIfRestaurantExists, getRestaurant);
+restaurantsRouter.get("/:id", checkId, checkIfRestaurantExists, getRestaurant);
 
 export default restaurantsRouter;
