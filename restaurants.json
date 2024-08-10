@@ -1,0 +1,356 @@
+[
+  {
+    "id": "66b7283de967685122dee45b",
+    "name": "The Gourmet Bistro",
+    "image_URL": "https://picsum.photos/seed/bistro/200/300",
+    "location": {
+      "address": "123 Gourmet Lane",
+      "city": "Paris",
+      "state": "Ile-de-France",
+      "zip_code": "75001"
+    },
+    "tags": ["French", "Fine Dining"],
+    "rating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Alice",
+        "text": "Fantastic food and great ambiance!",
+        "rating": 4.7
+      },
+      {
+        "id": "r2",
+        "user_id": "Bob",
+        "text": "A bit pricey but worth it.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee45c",
+    "name": "Pizza Haven",
+    "image_URL": "https://picsum.photos/seed/pizza/200/300",
+    "location": {
+      "address": "456 Pizza Blvd",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10001"
+    },
+    "tags": ["Italian", "Casual"],
+    "rating": 4.5,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Charlie",
+        "text": "Best pizza in town!",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee45d",
+    "name": "Sushi World",
+    "image_URL": "https://picsum.photos/seed/sushi/200/300",
+    "location": {
+      "address": "789 Sushi St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94103"
+    },
+    "tags": ["Japanese", "Sushi"],
+    "rating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Dana",
+        "text": "Fresh and delicious sushi.",
+        "rating": 4.8
+      },
+      {
+        "id": "r2",
+        "user_id": "Eva",
+        "text": "Great selection of rolls.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee45e",
+    "name": "Taco Fiesta",
+    "image_URL": "https://picsum.photos/seed/taco/200/300",
+    "location": {
+      "address": "101 Taco Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90001"
+    },
+    "tags": ["Mexican", "Fast Food"],
+    "rating": 4.4,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Frank",
+        "text": "Delicious tacos and affordable.",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee45f",
+    "name": "The Burger Joint",
+    "image_URL": "https://picsum.photos/seed/burger/200/300",
+    "location": {
+      "address": "202 Burger Blvd",
+      "city": "Chicago",
+      "state": "IL",
+      "zip_code": "60601"
+    },
+    "tags": ["American", "Burgers"],
+    "rating": 4.6,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Grace",
+        "text": "Juicy burgers and great fries.",
+        "rating": 4.7
+      },
+      {
+        "id": "r2",
+        "user_id": "Hank",
+        "text": "The best burger I've ever had.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee460",
+    "name": "Vegan Delight",
+    "image_URL": "https://picsum.photos/seed/vegan/200/300",
+    "location": {
+      "address": "303 Vegan Dr",
+      "city": "Seattle",
+      "state": "WA",
+      "zip_code": "98101"
+    },
+    "tags": ["Vegan", "Healthy"],
+    "rating": 4.5,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Ivy",
+        "text": "Amazing vegan options and fresh ingredients.",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee461",
+    "name": "Seafood Palace",
+    "image_URL": "https://picsum.photos/seed/seafood/200/300",
+    "location": {
+      "address": "404 Seafood Rd",
+      "city": "Miami",
+      "state": "FL",
+      "zip_code": "33101"
+    },
+    "tags": ["Seafood", "Fine Dining"],
+    "rating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "John",
+        "text": "Excellent seafood and service.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee462",
+    "name": "BBQ Haven",
+    "image_URL": "https://picsum.photos/seed/bbq/200/300",
+    "location": {
+      "address": "505 BBQ Blvd",
+      "city": "Austin",
+      "state": "TX",
+      "zip_code": "73301"
+    },
+    "tags": ["BBQ", "Casual"],
+    "rating": 4.6,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Kim",
+        "text": "Great BBQ ribs and brisket.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee463",
+    "name": "Pasta Paradise",
+    "image_URL": "https://picsum.photos/seed/pasta/200/300",
+    "location": {
+      "address": "606 Pasta Pl",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip_code": "19101"
+    },
+    "tags": ["Italian", "Pasta"],
+    "rating": 4.5,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Leo",
+        "text": "Delicious pasta dishes with generous portions.",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee464",
+    "name": "Dim Sum Delight",
+    "image_URL": "https://picsum.photos/seed/dim_sum/200/300",
+    "location": {
+      "address": "707 Dim Sum Ln",
+      "city": "San Diego",
+      "state": "CA",
+      "zip_code": "92101"
+    },
+    "tags": ["Chinese", "Dim Sum"],
+    "rating": 4.6,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Mia",
+        "text": "Fantastic dim sum and tea.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee465",
+    "name": "Cafe Cozy",
+    "image_URL": "https://picsum.photos/seed/cafe/200/300",
+    "location": {
+      "address": "808 Cafe Ct",
+      "city": "Boston",
+      "state": "MA",
+      "zip_code": "02101"
+    },
+    "tags": ["Cafe", "Desserts"],
+    "rating": 4.4,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Nina",
+        "text": "Great coffee and pastries.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee466",
+    "name": "Indian Spice",
+    "image_URL": "https://picsum.photos/seed/indian/200/300",
+    "location": {
+      "address": "909 Spice St",
+      "city": "Houston",
+      "state": "TX",
+      "zip_code": "77001"
+    },
+    "tags": ["Indian", "Spicy"],
+    "rating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Oliver",
+        "text": "Authentic Indian flavors.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee467",
+    "name": "Mediterranean Magic",
+    "image_URL": "https://picsum.photos/seed/mediterranean/200/300",
+    "location": {
+      "address": "1010 Mediterranean Ave",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip_code": "30301"
+    },
+    "tags": ["Mediterranean", "Healthy"],
+    "rating": 4.5,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Paul",
+        "text": "Fresh and healthy Mediterranean food.",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee468",
+    "name": "BBQ Joint",
+    "image_URL": "https://picsum.photos/seed/bbq_joint/200/300",
+    "location": {
+      "address": "1111 BBQ Rd",
+      "city": "Nashville",
+      "state": "TN",
+      "zip_code": "37201"
+    },
+    "tags": ["BBQ", "Casual"],
+    "rating": 4.6,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Quinn",
+        "text": "Great BBQ in a relaxed setting.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee469",
+    "name": "Thai Temptations",
+    "image_URL": "https://picsum.photos/seed/thai/200/300",
+    "location": {
+      "address": "1212 Thai St",
+      "city": "Denver",
+      "state": "CO",
+      "zip_code": "80201"
+    },
+    "tags": ["Thai", "Spicy"],
+    "rating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Rachel",
+        "text": "Amazing Thai food with a kick.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": "66b7283de967685122dee46a",
+    "name": "Burger Bliss",
+    "image_URL": "https://picsum.photos/seed/burger_bliss/200/300",
+    "location": {
+      "address": "1313 Burger Ave",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip_code": "55401"
+    },
+    "tags": ["American", "Burgers"],
+    "rating": 4.6,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "Steve",
+        "text": "Best burgers in the area!",
+        "rating": 4.7
+      }
+    ]
+  }
+]
