@@ -5,6 +5,10 @@ const RestaurantSchema = new Schema({
     type: String,
     required: true,
   },
+  image_URL: {
+    type: String,
+    required: true,
+  },
   location: {
     address: {
       type: String,
@@ -43,7 +47,7 @@ const RestaurantSchema = new Schema({
       },
     },
   ],
-  tags:[String],
+  tags: [String],
 });
 
 const Restaurant = model("Restaurant", RestaurantSchema);
