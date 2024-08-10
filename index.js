@@ -1,10 +1,13 @@
 import express from "express";
+import cors from "cors";
 import restaurantsRouter from "./routes/restaurantsRouter.js";
 import tagRouter from "./routes/tagRouter.js";
 import connectToDatabase from "./db.js";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
+app.use(cors())
+app.use(express.json());
 connectToDatabase();
 app.get("/", (req, res) => {
   res.send("Hello World");
