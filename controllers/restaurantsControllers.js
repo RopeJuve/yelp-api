@@ -2,17 +2,12 @@ import Restaurant from "../models/Restaurant.model.js";
 
 export const getRestaurants = async (req, res) => {
   const { tag } = req.query;
-  console.log(tag);
-  if (tag) {
+
+  if (tag != undefined) {
+    const tagUpper = tag.charAt(0).toUpperCase() + tag.slice(1);
     try {
-      const restaurants = await Restaurant.find();
-        console.log(restaurants);
-      const filteredRestaurants = restaurants.filter((restaurant) => {
-        return restaurant.tags.includes({
-            name: tag,
-        });
-      });
-      return res.status(200).json(filteredRestaurants);
+      const restaurants = await Restaurant.find({ tags: tagUpper });
+      return res.status(200).json(restaurants);
     } catch (error) {
       res.status(404).json({ message: error.message });
     }

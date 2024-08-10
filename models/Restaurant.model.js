@@ -43,12 +43,7 @@ const RestaurantSchema = new Schema({
       },
     },
   ],
-  tags:{
-      name: {
-        type: String,
-        required: true,
-      },
-    },
+  tags:[String],
 });
 
 const Restaurant = model("Restaurant", RestaurantSchema);
